@@ -1,0 +1,128 @@
+/* CSS Reset */
+body {
+    /* Set the font family for the entire document */
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px;/* Remove default margin */
+    padding: 0px;/* Remove default padding */
+    background: url('img/wallpaperflare.com_wallpaper\ \(2\).jpg');/* Set background image */
+    color: aliceblue;/* Set text color */
+}
+
+/* Styles for the left box */
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;/* Positioning */
+    left: 34px;/* Distance from left */
+    top: 20px;/* Distance from top */
+}
+
+/* Styles for the image inside the left box */
+.left img {
+    width: 155px;/* Set image width */
+    filter: invert(100%);/* Invert image colors */
+}
+
+/* Styles for the div inside the left box */
+.left div {
+    text-align: center;
+
+}
+
+/*Styles for the mid box*/
+.mid {
+    /* border: 2px solid rgb(0, 255, 128); */
+    display: block;
+    width: 38%;
+    margin: 20px auto;
+}
+
+/* Styles for the navbar */
+.right {
+    /* border: 2px solid rgb(98, 0, 255); */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 35px;
+}
+
+/* Styles for the navbar */
+.navbar {
+    display: inline-block;
+}
+
+/* Styles for navbar list items */
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+/* Styles for navbar links */
+.navbar li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 7px 12px;
+
+}
+
+/* Hover and active styles for navbar links */
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+/* Hover styles for buttons */
+.btn:hover {
+    background-color: rgb(106, 109, 109);
+
+}
+
+/* Styles for buttons */
+.btn {
+    margin: 0px 9px;
+    color: aliceblue;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+/* Styles for the container */
+.container {
+    /* border: 2px solid ghostwhite;  */
+    margin: 127px auto;
+    padding: 54px 155px;
+    width: 44%;
+    border-radius: 32px;
+}
+
+/* Styles for form inputs inside form-group */
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 434px;
+    padding: 1px;
+    border: 2px solid rebeccapurple;
+    margin: 3px auto;
+    font-size: 16px;
+    border-radius: 8px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+/* Styles for h1 inside container */
+.container h1 {
+    text-align: center;
+}
+
+/* Styles for buttons inside container */
+.container button {
+    display: block;
+    width: 23%;
+    margin: 4px auto;
+}
